@@ -1,0 +1,2 @@
+# optimization
+Notes about optimization
