@@ -68,6 +68,7 @@ def lp_4(verbose=True):
     s5 = cp.Variable()
     s6 = cp.Variable()
     t = cp.Variable()
+    variables = [x1p, x1m, x2p, x2m, s1, s2, s3, s4, s5, s6, t]
 
     obj = cp.Minimize(t)
     constraints = [
